@@ -1,0 +1,43 @@
+
+html{
+    font-size: 20px; /*px is pixels, with this declaration the base font size is 10pixels*/
+    font-family: 'Roboto', sans-serif;
+    background-color: royalblue;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px blue;
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2,h2,h3,h4,h5,h6{
+    color:blueviolet;
+}
+
+p{
+    font-size: 20px;
+    color:red;
+    text-align: center;
+}
+
+li{
+    font-size: 16px;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
