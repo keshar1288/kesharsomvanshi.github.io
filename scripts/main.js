@@ -20,7 +20,7 @@ if(!localStorage.getItem('name')){
     setUserName();
 }else{
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Web Dev is so cool, ' + storedName;
+    myHeading.textContent = 'Welcome ' + storedName;
 }
 
 //Code for OnClick event for the button
